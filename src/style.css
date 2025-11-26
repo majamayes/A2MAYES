@@ -17,4 +17,23 @@ form {
     gap: 10px;               /* space between input and button */
     margin-top: 20px;
 }
+<<<<<<< HEAD
 >>>>>>> b0d8d1e (let go styles)
+=======
+/* Center the whole <ul> on the page */
+.todo-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;   /* this centers the UL block */
+    text-align: center;  /* this centers inline content */
+}
+
+/* Center contents of each <li> */
+.todo-list li {
+    display: flex;
+    justify-content: center;  /* center checkbox, text, and button as a group */
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+}
+>>>>>>> 83a3e06 (let go styles)
